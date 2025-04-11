@@ -1,0 +1,34 @@
+/* src/assets/calendar-styles.css */
+:root {
+    --calendar-grid-border-color: #dadce0;
+    --calendar-time-text-color: #70757a;
+    --calendar-bg-color: #ffffff;
+    --calendar-current-user-booking-bg: #0b57d0;
+    /* Google Calendar Blue */
+    --calendar-current-user-booking-text: #ffffff;
+    --calendar-other-user-booking-bg: #f1f3f4;
+    /* Lighter Grey */
+    --calendar-other-user-booking-text: #3c4043;
+    --calendar-selection-bg: rgba(3, 155, 229, 0.3);
+    /* Light blue semi-transparent */
+    --calendar-selection-border: #039BE5;
+    --calendar-item-name-bg: #f8f9fa;
+
+    --slot-height: 50px;
+    /* Height of each hardware row */
+    --time-header-height: 30px;
+    --item-name-width: 150px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Optional: Use similar font */
+    font-size: 13px;
+}
+
+/* Basic box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
